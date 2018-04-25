@@ -1,0 +1,11 @@
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\IdkTbh.deps.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\IdkTbh.runtimeconfig.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\IdkTbh.runtimeconfig.dev.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\IdkTbh.dll
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\IdkTbh.pdb
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.csprojResolveAssemblyReference.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.csproj.CoreCompileInputs.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.AssemblyInfoInputs.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.AssemblyInfo.cs
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.dll
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\IdkTbh.pdb

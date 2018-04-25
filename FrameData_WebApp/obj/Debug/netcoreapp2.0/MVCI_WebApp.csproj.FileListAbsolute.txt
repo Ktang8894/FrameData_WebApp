@@ -1,0 +1,11 @@
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\MVCI_WebApp.deps.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\MVCI_WebApp.runtimeconfig.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\MVCI_WebApp.runtimeconfig.dev.json
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\MVCI_WebApp.dll
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\bin\Debug\netcoreapp2.0\MVCI_WebApp.pdb
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.csprojResolveAssemblyReference.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.csproj.CoreCompileInputs.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.AssemblyInfoInputs.cache
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.AssemblyInfo.cs
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.dll
+C:\Users\ktang\Desktop\Misc\IdkTbh\IdkTbh\obj\Debug\netcoreapp2.0\MVCI_WebApp.pdb

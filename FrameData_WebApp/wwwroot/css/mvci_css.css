@@ -1,0 +1,104 @@
+body {
+	background-color: white;
+	color: black;
+}
+
+body, select, option {
+	font-family: "exo";
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+select {
+	width: 15%;
+	color: black;
+}
+
+option {
+	top: 100%;
+	color: black;
+}
+
+/* Homepage */
+#mainContainer{
+	padding: 180px 0;
+	text-align: center;
+	position: relative;
+	display:none;
+}
+
+.header {
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+/* Table Page */
+#siteNav {
+	visibility: hidden;
+}
+
+#selectedCharName {
+	left: 10px;
+	top: -10px;
+	position: fixed;
+}
+
+#hoverMessage {
+	top: 5px;
+	right: 80px;
+	text-align: center;
+	position:fixed;
+}
+
+.navSelect{
+	width: 160px;
+	top: -35px;
+	left: 175px;
+}
+
+#charFD {
+	position: fixed;
+	top: -10px;
+	left: 300px;
+}
+
+#team {
+	position: fixed;
+	top: -10px;
+	left: 700px;
+}
+
+.charFrameData_nav {
+	position: fixed;
+	top: 15px;
+	left: 475px;
+}
+
+.charSelect1_nav {
+	position: fixed;
+	top: 15px;
+	left: 790px;
+}
+
+.charSelect2_nav {
+	position: fixed;
+	top: 15px;
+	left: 955px;
+}
+
+th {
+	top: 49px;
+	position: sticky;
+	color: white;
+	background-color: gray;
+}
+
+td, th {
+    text-align: center;
+}
+
+

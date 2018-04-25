@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Frame Data";
+}
+
+<nav id="siteNav" class="navbar navbar-default navbar-fixed-top affix-top" role="navigation">
+    <a id="selectedCharName"></a>
+    <span id="charFD" class="navSpan">
+        <a class="navText">Frame Data:</a>
+    </span>
+    <span id="team" class="navSpan">
+        <a class="navText">Team:</a>
+    </span>
+    <span>
+        <a id="hoverMessage">Hover over your move <br /> to get the punish window</a>
+    </span>
+</nav>
+<div id="mainContainer">
+    <h1 id="headerText" class="header">MvC:I Frame Data</h1>
+    <h2 id="selectTeam" class="header">Select your team (OPTIONAL)</h2>
+    <select id="charSelect1" onchange="teamCharSelected('charSelect1', 'charSelect2')">
+        <option value="">[First Character]</option>
+    </select>
+
+
+    <select id="charSelect2" onchange="teamCharSelected('charSelect2', 'charSelect1')">
+        <option value="">[Second Character]</option>
+    </select>
+
+    <h2 id="selectFrameData" class="header">Select a character to view frame data for</h2>
+    <select id="charFrameData" onchange="getTable()">
+        <option value="empty"></option>
+        @* <script>$("#charFrameData").prop("selectedIndex", -1);</script> *@
+    </select>
+
+    @*  <script>listNames();</script> *@
+</div>
+<div id="frameDataContainer" style="display:none">
+    <table class="table table-striped">
+        <tr>
+            <th>Move Name</th>
+            <th>Input</th>
+            <th>Damage</th>
+            <th>Startup</th>
+            <th>Active</th>
+            <th>Recovery</th>
+            <th>Total</th>
+            <th>Block Advantage</th>
+            <th>Hit Advantage</th>
+            <th>Char 1 Punishable</th>
+            <th>Char 2 Punishable</th>
+        </tr>
+        @*<tr ng-repeat="x in names">
+            <td href="#" data-toggle="tooltip" ng-attr-title="{{x.Punisher1Opening}} Frame Punish">{{x.Punisher1}}</td>
+            <td href="#" data-toggle="tooltip" ng-attr-title="{{x.Punisher2Opening}} Frame Punish">{{x.Punisher2}}</td>
+        </tr>*@
+    </table>
+</div>
