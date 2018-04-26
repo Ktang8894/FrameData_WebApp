@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "c3e0aee792bf852b4e817e88bb634adae0bca8a2"
+    "signature": "8962634601dac5ddee2c800edfb77c300f696064"
   },
   "compilationOptions": {
     "defines": [
@@ -23,8 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "FrameData_WebApp/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.2.0",
-          "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.AspNetCore.All": "2.0.7",
           "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {
@@ -32,16 +31,6 @@
         },
         "compile": {
           "FrameData_WebApp.dll": {}
-        }
-      },
-      "EntityFramework/6.2.0": {
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -156,7 +145,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.All/2.0.6": {
+      "Microsoft.AspNetCore.All/2.0.7": {
         "dependencies": {
           "Microsoft.AspNetCore": "2.0.2",
           "Microsoft.AspNetCore.Antiforgery": "2.0.2",
@@ -3989,13 +3978,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EntityFramework/6.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
-      "path": "entityframework/6.2.0",
-      "hashPath": "entityframework.6.2.0.nupkg.sha512"
-    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -4031,12 +4013,12 @@
       "path": "microsoft.aspnetcore/2.0.2",
       "hashPath": "microsoft.aspnetcore.2.0.2.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.All/2.0.6": {
+    "Microsoft.AspNetCore.All/2.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5AEYk4hS25RcPkh1kWeKpn487/9Bb3GeVfu8Sl7EOFv9ADXmz7ypVyVlp8FMwgQIJSykzy6kF6KOOduhrWGmSA==",
-      "path": "microsoft.aspnetcore.all/2.0.6",
-      "hashPath": "microsoft.aspnetcore.all.2.0.6.nupkg.sha512"
+      "sha512": "sha512-hpWBRgs094P0jBWJRqBV+8oXl6G+O5ixDAgXI5qouOsg2jlLOmYr1+95+lRbLSn31HhKbQdNel6VQSDUbm0juw==",
+      "path": "microsoft.aspnetcore.all/2.0.7",
+      "hashPath": "microsoft.aspnetcore.all.2.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.0.2": {
       "type": "package",
