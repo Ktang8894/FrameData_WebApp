@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FrameData_API.Models
 {
@@ -17,5 +18,7 @@ namespace FrameData_API.Models
         public string BlockAdvantage { get; set; }
         public string HitAdvantage { get; set; }
         public string CounterhitAdvantage { get; set; }
+        //public string PunisherMove1 { get; set; }
+        //public string Punishable1 { get; set; }
     }
 }

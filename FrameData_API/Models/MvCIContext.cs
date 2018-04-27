@@ -99,6 +99,14 @@ namespace FrameData_API.Models
                 entity.Property(e => e.Total)
                     .HasMaxLength(40)
                     .IsUnicode(false);
+
+                //entity.Property(e => e.PunisherMove1)
+                //    .HasMaxLength(40)
+                //    .IsUnicode(false);
+
+                //entity.Property(e => e.Punishable1)
+                //    .HasMaxLength(40)
+                //    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Arthur>(entity =>

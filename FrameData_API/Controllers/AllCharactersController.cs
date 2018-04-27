@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FrameData_API.Models;
@@ -10,7 +8,7 @@ using FrameData_API.Models;
 namespace FrameData_API.Controllers
 {
     [Produces("application/json")]
-    [Route("api/AllCharacters")]
+    //[Route("api")]
     public class AllCharactersController : Controller
     {
         private readonly MvCIContext _context;
@@ -20,16 +18,39 @@ namespace FrameData_API.Controllers
             _context = context;
         }
 
-        // GET: api/AllCharacters
+        //// GET: api/AllCharacters
+        //[HttpGet]
+        //public IEnumerable<AllCharacters> GetAllCharacters()
+        //{
+        //    return _context.AllCharacters;
+        //}
+
+        // GET: characterList
+        [Route("characterList")]
         [HttpGet]
-        public IEnumerable<AllCharacters> GetAllCharacters()
+        public IActionResult GetAllCharacters()
         {
-            return _context.AllCharacters;
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var allCharacters = _context.AllCharacters
+                    .OrderBy(c => c.CharacterName)
+                    .Select(c => c.CharacterName)
+                    .Distinct();
+
+            if (allCharacters == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(allCharacters);
         }
 
-        // GET: api/AllCharacters/5
+        // GET: charName
         [HttpGet("{charName}")]
-        public async Task<IActionResult> GetAllCharacters([FromRoute] string charName, string char1, string char2)
+        public IActionResult GetAllCharacters([FromRoute] string charName, string char1, string char2)
         {
             if (!ModelState.IsValid)
             {
@@ -43,6 +64,15 @@ namespace FrameData_API.Controllers
                 return NotFound();
             }
 
+            if (charName == "all")
+            {
+                var charList = _context.AllCharacters
+                    .OrderBy(c => c.CharacterName)
+                    .Select(c => c.CharacterName)
+                    .Distinct();
+                return Ok(charList);
+            }
+
             if (char1 == null && char2 == null)
             {
                 var selectedChar = _context.AllCharacters.Where(c => c.CharacterName == charName);
@@ -51,9 +81,8 @@ namespace FrameData_API.Controllers
 
             if (char1 != null && char2 == null)
             {
-                var selectedChar = _context.AllCharacters.Where(c => c.CharacterName == charName);
-                //TODO: Call select singlecharacterselected stored proc, and update that so its gruoped by char move
-                return Ok(char1);
+                var selectedChar = _context.AllCharacters.FromSql("EXEC MvCI.SingleCharacterSelected {0}, {1}", charName, char1);
+                return Ok(selectedChar);
             }
 
             return Ok(allCharacters);
