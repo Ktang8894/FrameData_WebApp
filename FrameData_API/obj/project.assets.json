@@ -13171,11 +13171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp\\FrameData_API\\FrameData_API.csproj",
+      "projectUniqueName": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp and API\\FrameData_API\\FrameData_API.csproj",
       "projectName": "FrameData_API",
-      "projectPath": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp\\FrameData_API\\FrameData_API.csproj",
+      "projectPath": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp and API\\FrameData_API\\FrameData_API.csproj",
       "packagesPath": "C:\\Users\\ktang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp\\FrameData_API\\obj\\",
+      "outputPath": "C:\\Users\\ktang\\Desktop\\Misc\\FrameData_WebApp and API\\FrameData_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

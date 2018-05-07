@@ -20,3 +20,14 @@ C:\Users\ktang\Desktop\Misc\FrameData_WebApp\FrameData_WebApp\obj\Debug\netcorea
 C:\Users\ktang\Desktop\Misc\FrameData_WebApp\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.AssemblyInfo.cs
 C:\Users\ktang\Desktop\Misc\FrameData_WebApp\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.dll
 C:\Users\ktang\Desktop\Misc\FrameData_WebApp\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.pdb
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\bin\Debug\netcoreapp2.0\FrameData_WebApp.deps.json
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\bin\Debug\netcoreapp2.0\FrameData_WebApp.runtimeconfig.json
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\bin\Debug\netcoreapp2.0\FrameData_WebApp.runtimeconfig.dev.json
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\bin\Debug\netcoreapp2.0\FrameData_WebApp.dll
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\bin\Debug\netcoreapp2.0\FrameData_WebApp.pdb
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.csproj.CoreCompileInputs.cache
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.AssemblyInfoInputs.cache
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.AssemblyInfo.cs
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.dll
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.pdb
+C:\Users\ktang\Desktop\Misc\FrameData_WebApp and API\FrameData_WebApp\obj\Debug\netcoreapp2.0\FrameData_WebApp.csprojResolveAssemblyReference.cache

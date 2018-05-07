@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FrameData_API.Models
 {
-    public partial class BlackPanther
+    public partial class MvCIContext
     {
+        public string CharacterName { get; set; }
         public int MoveId { get; set; }
         public string MoveName { get; set; }
         public string Input { get; set; }
@@ -16,5 +18,7 @@ namespace FrameData_API.Models
         public string BlockAdvantage { get; set; }
         public string HitAdvantage { get; set; }
         public string CounterhitAdvantage { get; set; }
+        //public string PunisherMove1 { get; set; }
+        //public string Punishable1 { get; set; }
     }
 }
