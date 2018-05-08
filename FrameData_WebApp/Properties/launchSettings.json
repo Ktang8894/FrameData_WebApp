@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IdkTbh": {
+    "FrameData_WebApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

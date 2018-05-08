@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace IdkTbh
+namespace FrameData_WebApp
 {
     public class Startup
     {
@@ -43,7 +39,7 @@ namespace IdkTbh
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=FrameData}/{action=Index}/{id?}");
+                    template: "{controller=MvCIFrameData}/{action=Index}/{id?}");
             });
         }
     }

@@ -9,11 +9,11 @@ namespace FrameData_API.Controllers
 {
     [Produces("application/json")]
     //[Route("api")]
-    public class FrameDataController : Controller
+    public class MvCIFrameDataController : Controller
     {
         private readonly MvCIContext _context;
 
-        public FrameDataController(MvCIContext context)
+        public MvCIFrameDataController(MvCIContext context)
         {
             _context = context;
         }
@@ -90,7 +90,7 @@ namespace FrameData_API.Controllers
 
         // POST: api/FrameData
         [HttpPost]
-        public async Task<IActionResult> PostFrameData([FromBody] MvCIContext FrameData)
+        public async Task<IActionResult> PostFrameData([FromBody] MvCIFrameData FrameData)
         {
             if (!ModelState.IsValid)
             {

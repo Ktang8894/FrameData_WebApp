@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Frame Data";
+    ViewData["Title"] = "MvC:I Frame Data";
 }
 
 <nav id="siteNav" class="navbar navbar-default navbar-fixed-top affix-top" role="navigation">
@@ -20,21 +20,28 @@
     <h2 id="selectTeam" class="header">Select your team (OPTIONAL)</h2>
     <select id="charSelect1" onchange="teamCharSelected('charSelect1', 'charSelect2')">
         <option value="">[First Character]</option>
-        @{
-
+        @foreach (var c in CharacterListModel.Characters)
+        {
+            <option value="">@c</option>
         }
     </select>
 
     <select id="charSelect2" onchange="teamCharSelected('charSelect2', 'charSelect1')">
         <option value="">[Second Character]</option>
+        @foreach (var c in CharacterListModel.Characters)
+        {
+             <option value="">@c</option>
+        }   
     </select>
 
     <h2 id="selectFrameData" class="header">Select a character to view frame data for</h2>
     <select id="charFrameData" onchange="getTable()">
         <option value="empty"></option>
-        @*<script>$("#charFrameData").prop("selectedIndex", -1);</script>*@
+        @foreach (var c in CharacterListModel.Characters)
+        {
+            <option value="">@c</option>
+        }
     </select>
-    @*<script>listNames();</script>*@
 </div>
 
 <div id="frameDataContainer" style="display:none">

@@ -1,12 +1,10 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace FrameData_API.Models
 {
     public partial class MvCIContext : DbContext
     {
-        public virtual DbSet<MvCIContext> FrameData { get; set; }
+        public virtual DbSet<MvCIFrameData> FrameData { get; set; }
 
         public MvCIContext(DbContextOptions<MvCIContext> options)
             : base(options)
@@ -14,7 +12,7 @@ namespace FrameData_API.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<MvCIContext>(entity =>
+            modelBuilder.Entity<MvCIFrameData>(entity =>
             {
                 entity.HasKey(e => e.MoveId);
 

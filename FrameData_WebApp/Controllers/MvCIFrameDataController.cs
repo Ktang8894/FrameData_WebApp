@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using IdkTbh.Models;
+﻿using System.Diagnostics;
+using System.Net.Http;
+using FrameData_WebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IdkTbh.Controllers
+namespace FrameData_WebApp.Controllers
 {
-    public class FrameDataController : Controller
+    public class MvCIFrameDataController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
         {
+            HttpClient client = new HttpClient();
+            CharacterListModel.Characters = APICalls.GetCharacterListAsync().Result;
             return View();
         }
 

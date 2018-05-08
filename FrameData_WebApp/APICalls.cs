@@ -1,8 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -13,7 +9,7 @@ namespace FrameData_WebApp
         private const string uri = "http://localhost:50151/characterList";
         private static readonly HttpClient client = new HttpClient();
 
-        public async Task<List<string>> GetCharacterListAsync()
+        public static async Task<List<string>> GetCharacterListAsync()
         {
             List<string> result = null;
             HttpResponseMessage response = await client.GetAsync(uri);

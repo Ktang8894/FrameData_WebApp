@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace FrameData_API.Models
+﻿namespace FrameData_WebApp.Models
 {
-    public partial class MvCIContext
+    public partial class MvCIFrameDataModel
     {
         public string CharacterName { get; set; }
         public int MoveId { get; set; }

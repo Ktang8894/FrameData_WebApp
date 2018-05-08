@@ -1,6 +1,4 @@
-using System;
-
-namespace IdkTbh.Models
+namespace FrameData_WebApp.Models
 {
     public class ErrorViewModel
     {
